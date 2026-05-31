@@ -1,0 +1,15 @@
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\bin\Debug\net10.0\exercicios04_polimorfismo.exe
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\bin\Debug\net10.0\exercicios04_polimorfismo.deps.json
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\bin\Debug\net10.0\exercicios04_polimorfismo.runtimeconfig.json
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\bin\Debug\net10.0\exercicios04_polimorfismo.dll
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\bin\Debug\net10.0\exercicios04_polimorfismo.pdb
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\obj\Debug\net10.0\exercicios04_polimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\obj\Debug\net10.0\exercicios04_polimorfismo.AssemblyInfoInputs.cache
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\obj\Debug\net10.0\exercicios04_polimorfismo.AssemblyInfo.cs
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\obj\Debug\net10.0\exercicios04_polimorfismo.csproj.CoreCompileInputs.cache
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\obj\Debug\net10.0\exercicios04_polimorfismo.sourcelink.json
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\obj\Debug\net10.0\exercicios04_polimorfismo.dll
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\obj\Debug\net10.0\refint\exercicios04_polimorfismo.dll
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\obj\Debug\net10.0\exercicios04_polimorfismo.pdb
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\obj\Debug\net10.0\exercicios04_polimorfismo.genruntimeconfig.cache
+C:\Programs\Gabriel\csharp_exercicios\POO\exercicios04_polimorfismo\obj\Debug\net10.0\ref\exercicios04_polimorfismo.dll
