@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Documentos\\Gabriel\\ALURA\\exercicios-poo-cs-interface-1\\pratica-interface.csproj",
+      "projectUniqueName": "C:\\Programs\\Gabriel\\csharp_exercicios\\POO\\exercicios01_interface\\pratica-interface.csproj",
       "projectName": "pratica-interface",
-      "projectPath": "C:\\Users\\vinic\\OneDrive\\Documentos\\Gabriel\\ALURA\\exercicios-poo-cs-interface-1\\pratica-interface.csproj",
+      "projectPath": "C:\\Programs\\Gabriel\\csharp_exercicios\\POO\\exercicios01_interface\\pratica-interface.csproj",
       "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinic\\OneDrive\\Documentos\\Gabriel\\ALURA\\exercicios-poo-cs-interface-1\\obj\\",
+      "outputPath": "C:\\Programs\\Gabriel\\csharp_exercicios\\POO\\exercicios01_interface\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config"
