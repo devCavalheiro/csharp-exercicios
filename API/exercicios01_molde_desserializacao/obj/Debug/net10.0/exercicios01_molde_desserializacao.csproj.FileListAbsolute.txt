@@ -1,0 +1,15 @@
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\bin\Debug\net10.0\exercicios01_molde_desserializacao.exe
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\bin\Debug\net10.0\exercicios01_molde_desserializacao.deps.json
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\bin\Debug\net10.0\exercicios01_molde_desserializacao.runtimeconfig.json
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\bin\Debug\net10.0\exercicios01_molde_desserializacao.dll
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\bin\Debug\net10.0\exercicios01_molde_desserializacao.pdb
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\obj\Debug\net10.0\exercicios01_molde_desserializacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\obj\Debug\net10.0\exercicios01_molde_desserializacao.AssemblyInfoInputs.cache
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\obj\Debug\net10.0\exercicios01_molde_desserializacao.AssemblyInfo.cs
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\obj\Debug\net10.0\exercicios01_molde_desserializacao.csproj.CoreCompileInputs.cache
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\obj\Debug\net10.0\exercicios01_molde_desserializacao.sourcelink.json
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\obj\Debug\net10.0\exercicios01_molde_desserializacao.dll
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\obj\Debug\net10.0\refint\exercicios01_molde_desserializacao.dll
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\obj\Debug\net10.0\exercicios01_molde_desserializacao.pdb
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\obj\Debug\net10.0\exercicios01_molde_desserializacao.genruntimeconfig.cache
+C:\Programs\Gabriel\csharp_exercicios\API\exercicios01_molde_desserializacao\obj\Debug\net10.0\ref\exercicios01_molde_desserializacao.dll
