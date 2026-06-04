@@ -1,25 +1,33 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using sistema_rotina_inteligente.Models;
 
-namespace sistema_de_rotina.Models
+namespace sistema_de_rotina.Models;
+
+public class LimpezaTemp : RotinaBase
 {
-    public class LimpezaTemp : RotinaBase
+    private Random random = new();
+    public int ArquivosRemovidos { get; private set; }
+
+    public LimpezaTemp(string nome) : base(nome) { }
+
+    public override void Executar()
     {
-        private Random random = new();
+        ArquivosRemovidos = random.Next(0, 350);
 
-        public int ArquivosRemovidos { get; }
+        ExibirCabecalho();
 
-        public LimpezaTemp(string nome, DateTime dataCriacao) : base(nome, dataCriacao)
-        {
-            ArquivosRemovidos = random.Next(0, 350);
-        }
+        Console.WriteLine();
+        Console.WriteLine($"Executando Limpeza de arquivos temporários...");
 
-        public override void Executar()
-        {
-            Console.WriteLine($"Executando");
-            Console.WriteLine($"Quantidade de arquivos temporários removidos: {ArquivosRemovidos}");
-        }
+        Thread.Sleep(3000);
+
+        Console.WriteLine($"Quantidade de arquivos temporários removidos: {ArquivosRemovidos}");
+
+        RegistrarExecucao();
+
+        Console.WriteLine($"\n-- Pressione qualquer tecla para continuar --");
+        Console.ReadKey();
+
+        Console.Clear();
     }
+    public override string ObterDescricao() => "Execute para limpar arquivos temporários";
 }

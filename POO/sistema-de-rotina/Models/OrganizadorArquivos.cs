@@ -1,19 +1,30 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+namespace sistema_de_rotina.Models;
 
-namespace sistema_de_rotina.Models
+public class OrganizadorArquivos : RotinaBase
 {
-    public class OrganizadorArquivos : RotinaBase
-    {
-        public OrganizadorArquivos(string nome, DateTime dataCriacao) : base(nome, dataCriacao)
-        {
-        }
+    public OrganizadorArquivos(string nome) : base(nome) { }
 
-        public override void Executar()
-        {
-            throw new NotImplementedException();
-        }
+    public override void Executar()
+    {
+        ExibirCabecalho();
+
+        Console.WriteLine();
+        Console.WriteLine($"Organizando arquivos...");
+
+        Thread.Sleep(3000);
+
+        Console.WriteLine($"Arquivos organizados:\n");
+        Console.WriteLine($" - Imagens em user/image");
+        Console.WriteLine($" - Vídeos em user/video");
+        Console.WriteLine($" - Documentos em user/doc");
+
+        RegistrarExecucao();
+
+        Console.WriteLine($"\n-- Pressione qualquer tecla para continuar --");
+        Console.ReadKey();
+
+        Console.Clear();
     }
+
+    public override string ObterDescricao() => "Execute para organizar arquivos";
 }

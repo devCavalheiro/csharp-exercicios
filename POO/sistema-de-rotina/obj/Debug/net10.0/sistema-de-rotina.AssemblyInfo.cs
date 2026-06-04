@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sistema-de-rotina")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73119844aa04fffbead129020303fc35f8b571d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44ddb9c3774f6a447b5f2256d0bb01124b41d5f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("sistema-de-rotina")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sistema-de-rotina")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

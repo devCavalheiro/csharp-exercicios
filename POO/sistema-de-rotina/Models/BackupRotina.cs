@@ -1,20 +1,40 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using sistema_de_rotina.Interfaces;
+namespace sistema_de_rotina.Models;
 
-namespace sistema_de_rotina.Models
+public class BackupRotina : RotinaBase
 {
-    public class BackupRotina : RotinaBase
-    {
-        public BackupRotina(string nome, DateTime dataCriacao) : base(nome, dataCriacao)
-        {
-        }
+    private Random random = new();
 
-        public override void Executar()
-        {
-            throw new NotImplementedException();
-        }
+    public int QuantidadeDeArquivos { get; set; }
+
+    public BackupRotina(string nome) : base(nome) { }
+
+    public override void Executar()
+    {
+        QuantidadeDeArquivos = random.Next(14, 1578);
+
+        ExibirCabecalho();
+
+        Console.WriteLine();
+
+        Console.Write($"Pasta de origem: ");
+        string origem = Console.ReadLine();
+
+        Console.Write($"Pasta de destino: ");
+        string destino = Console.ReadLine();
+
+        Thread.Sleep(2000);
+
+        Console.WriteLine($"Quantidade de arquivos a serem transferidos: {QuantidadeDeArquivos}\n");
+
+        Console.Write($" - Transferindo arquivos: {origem} -> {destino}\n");
+        Thread.Sleep(1000);
+        Console.WriteLine($"Backup feito.");
+
+        Console.WriteLine($"\n-- Pressione qualquer tecla para continuar --");
+        Console.ReadKey();
+
+        Console.Clear();
     }
+
+    public override string ObterDescricao() => "Execute para fazer backup de arquivos";
 }

@@ -5,19 +5,27 @@ namespace sistema_de_rotina.Models;
 public abstract class RotinaBase : IRotina
 {
     public string Nome { get; }
-    public DateTime DataCriacao { get; }
+    public DateTime DataExecucao { get; set; }
 
-    protected RotinaBase(string nome, DateTime dataCriacao)
+    public static List<LogExecucao> Logs { get; } = new();
+
+    protected RotinaBase(string nome)
     {
         Nome = nome;
-        DataCriacao = dataCriacao;
+    }
+
+    public void RegistrarExecucao()
+    {
+        Logs.Add(new LogExecucao(Nome));
     }
 
     public abstract void Executar();
-    public virtual void ExibirCabecalho() { }
-
-    public string ObterDescricao()
+    public virtual void ExibirCabecalho()
     {
-        throw new NotImplementedException();
+        Console.Clear();
+        Console.WriteLine("=== === === === === === === ===");
+        Console.WriteLine(Nome);
+        Console.WriteLine("=== === === === === === === ===");
     }
+    public abstract string ObterDescricao();
 }
