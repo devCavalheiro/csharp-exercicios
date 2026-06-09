@@ -1,0 +1,6 @@
+@exercicios_API_rotas_http_HostAddress = http://localhost:5053
+
+GET {{exercicios_API_rotas_http_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
